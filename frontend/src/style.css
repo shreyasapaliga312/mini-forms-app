@@ -1,0 +1,16 @@
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;padding:0;background:#f2f4f7;color:#111}
+.container{max-width:900px;margin:28px auto;padding:16px}
+header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+header h1{margin:0;font-size:20px}
+nav button{margin-left:8px;padding:6px 10px;border-radius:6px;border:1px solid #ccc;background:#fff;cursor:pointer}
+nav button.active{background:#111;color:#fff}
+.card{background:#fff;padding:16px;border-radius:8px;box-shadow:0 1px 6px rgba(0,0,0,0.06)}
+.card.full{overflow:auto}
+.field{margin-bottom:12px}
+.field label{display:block;margin-bottom:6px;font-weight:600}
+input[type="text"],select{width:100%;padding:8px;border:1px solid #ddd;border-radius:6px}
+.actions{margin-top:12px}
+button{padding:8px 12px;border-radius:6px;border:none;background:#111;color:#fff;cursor:pointer}
+table{width:100%;border-collapse:collapse}
+table th,table td{border:1px solid #e6e6e6;padding:8px;text-align:left}
+footer{margin-top:14px;color:#666}
